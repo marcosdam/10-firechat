@@ -29,10 +29,7 @@ import { ChatService } from './services/chat.service';
     FormsModule
   ],
   providers: [
-    ChatService,
-    AngularFirestoreCollection,
-    AngularFirestoreModule,
-    AngularFireModule
+    ChatService
   ],
   bootstrap: [AppComponent]
 })
